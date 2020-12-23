@@ -24,7 +24,7 @@ $(document).ready(function() {
 			token = str[1];
 			$("#practitioner_div").hide();
 			$("#practitioners_div").show();
-			var html = '<div class="card shadow mb-3 bg-white rounded"> <div class="card-body"> <div class="row"> <div class="col-lg-3 m-auto" ><img class="photo" src="images/photo.png" alt="" /></div> <div class="col "> <div class="row "> <div class="col align-center border-bottom col-prs-name" ><span class="text-success">Token refreshed successfully !! Please try again.</span></div> </div> </div> </div> </div> </div>';
+			var html = '<div class="card shadow mb-3 bg-white rounded"> <div class="card-body"> <div class="row"> <div class="col-lg-3 m-auto" ><img class="photo" src="photo.png" alt="" /></div> <div class="col "> <div class="row "> <div class="col align-center border-bottom col-prs-name" ><span class="text-success">Token refreshed successfully !! Please try again.</span></div> </div> </div> </div> </div> </div>';
 			$("#practitioners_div").append(html);
 			
 		});
